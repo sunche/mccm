@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Oauth2.v2" Version="1.43.0.1602" />
+    <PackageReference Include="jose-jwt" Version="2.4.0" />
+    <PackageReference Include="System.Net.Http.WinHttpHandler" Version="4.4.0" />
+  </ItemGroup>
+</Project>
